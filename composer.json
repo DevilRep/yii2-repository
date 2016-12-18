@@ -17,6 +17,10 @@
   "require": {
     "yiisoft/yii2": ">=2.0.0"
   },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "mockery/mockery": "*"
+  },
   "autoload": {
     "psr-4": {
       "devilrep\\repository\\": ""
