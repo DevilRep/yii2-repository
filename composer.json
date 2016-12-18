@@ -2,7 +2,7 @@
   "name": "devilrep/yii2-repository",
   "type": "yii2-extension",
   "description": "The repository integration for the Yii framework",
-  "keywords": ["yii2", "repository", "helper"],
+  "keywords": ["yii2", "repository"],
   "license": "GNU GENERAL PUBLIC LICENSE",
   "support": {
     "issues": "https://github.com/devilrep/yii2-repository/issues",
@@ -14,6 +14,7 @@
       "email": "flaringrep@gmail.com"
     }
   ],
+  "minimum-stability": "dev",
   "require": {
     "php": ">=7.0.0",
     "yiisoft/yii2": ">=2.0.0"
