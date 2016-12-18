@@ -6,6 +6,7 @@ php:
 
 before_script:
   - composer self-update
+  - composer global require "fxp/composer-asset-plugin:^1.2.0"
   - composer install --no-interaction
 
 script:
