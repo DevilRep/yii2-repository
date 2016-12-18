@@ -2,7 +2,7 @@
 
 namespace yiiunit\extensions\repository\fixtures;
 
-use yiiunit\extensions\repository\AbstractRepository;
+use devilrep\repository\AbstractRepository;
 
 class TestRepository extends AbstractRepository
 {
@@ -19,16 +19,6 @@ class TestRepository extends AbstractRepository
     public function getQuery()
     {
         return $this->query;
-    }
-
-    public function setRules($rules)
-    {
-        $this->rules = $rules;
-    }
-
-    public function setFieldsSearchable($fields)
-    {
-        $this->fieldSearchable = $fields;
     }
 
     public function criteriaInit(array $criteria)
